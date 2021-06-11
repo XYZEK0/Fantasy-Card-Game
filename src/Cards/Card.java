@@ -2,13 +2,15 @@ package Cards;
 
 public abstract class Card
 {
-
-
-
     protected int manaCost;
-
+    protected String name;
 
     public void action()
+    {
+
+    }
+
+    public void present()
     {
 
     }
@@ -23,5 +25,16 @@ public abstract class Card
     {
         this.manaCost = manaCost;
     }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
     //</editor-fold>
 }

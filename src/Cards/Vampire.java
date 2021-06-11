@@ -1,18 +1,18 @@
 package Cards;
 
-public class Orc extends Creature
+public class Vampire extends Creature
 {
-    public Orc()
+    public Vampire()
     {
-        this.setName("Orc");
-        this.setHealth(6);
-        this.setStrength(7);
-        this.setManaCost(6);
+        this.setName("Vampire");
+        this.setHealth(4);
+        this.setHealth(5);
+        this.setManaCost(5);
     }
 
     public void action()
     {
-        System.out.println("Topory!!!");
+        System.out.println("*Sucks your blood/dick*");
     }
 
     public void present()

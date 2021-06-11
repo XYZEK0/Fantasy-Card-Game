@@ -1,18 +1,17 @@
 package Cards;
 
-public class Orc extends Creature
+public class Paladin extends Creature
 {
-    public Orc()
+    public Paladin()
     {
-        this.setName("Orc");
-        this.setHealth(6);
-        this.setStrength(7);
-        this.setManaCost(6);
+        this.setName("Paladin");
+        this.setHealth(7);
+        this.setStrength(6);
+        this.setManaCost(7);
     }
-
     public void action()
     {
-        System.out.println("Topory!!!");
+        System.out.println("Paladin does smth");
     }
 
     public void present()
