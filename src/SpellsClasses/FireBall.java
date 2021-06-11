@@ -1,11 +1,13 @@
-package Cards;
+package SpellsClasses;
+
+import CardTypes.Spell;
 
 public class FireBall extends Spell
 {
     public FireBall()
     {
-        this.setName("Fireball");
-        this.setManaCost(6);
+        super(6,"Fireball");
+
     }
 
     public void action()
@@ -15,7 +17,6 @@ public class FireBall extends Spell
 
     public void present()
     {
-        System.out.println("Card: " + this.getName());
-        System.out.println("Mana cost: " + this.getManaCost());
+        super.present();
     }
 }

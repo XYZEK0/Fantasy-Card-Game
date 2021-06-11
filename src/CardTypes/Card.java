@@ -1,10 +1,15 @@
-package Cards;
+package CardTypes;
 
 public abstract class Card
 {
     protected int manaCost;
     protected String name;
 
+    public Card(int manaCost, String name)
+    {
+        this.manaCost = manaCost;
+        this.name = name;
+    }
     public void action()
     {
 
@@ -12,7 +17,6 @@ public abstract class Card
 
     public void present()
     {
-
     }
 
     //<editor-fold desc="Getters and Setters">

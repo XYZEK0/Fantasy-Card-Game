@@ -1,11 +1,12 @@
-package Cards;
+package SpellsClasses;
+
+import CardTypes.Spell;
 
 public class BoardFreeze extends Spell
 {
     public BoardFreeze()
     {
-        this.setName("Board freeze");
-        this.setManaCost(4);
+        super(4, "Board Freeze");
     }
 
     public void action()
@@ -15,7 +16,6 @@ public class BoardFreeze extends Spell
 
     public void present()
     {
-        System.out.println("Card: " + this.getName());
-        System.out.println("Mana cost: " + this.getManaCost());
+        super.present();
     }
 }
