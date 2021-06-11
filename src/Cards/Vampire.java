@@ -1,10 +1,12 @@
 package Cards;
 
-public class Vampire extends Card
+public class Vampire extends Creature
 {
     public Vampire()
     {
-
+        this.setHealth(4);
+        this.setHealth(5);
+        this.setManaCost(5);
     }
 
     public void action()
